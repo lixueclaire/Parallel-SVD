@@ -3,15 +3,15 @@ parallel SVD Using Jacobis Rotations
   Parallel SVD using jacobis rotations, implemented in OpenMP.
 
 ### generate M*N matrix
-  M = # of columns
-  N = # of Rows
-  Matrix must be squared (M=N)
+  M = # of columns <br />
+  N = # of Rows <br />
+  Matrix must be squared (M=N) <br />
 		python randomMatrix.py M N
 
 ### serial algorithm
-  -t = print out Timing and # of Iterations
-  -p = print out Results (U, S, V)
-  -d = Generate the Octave files for debug and verify correctness
+  -t = print out Timing and # of Iterations <br />
+  -p = print out Results (U, S, V) <br />
+  -d = Generate the Octave files for debug and verify correctness <br />
 		g++ SVD.cpp -o svd
 		./svd M N -t -d
 
